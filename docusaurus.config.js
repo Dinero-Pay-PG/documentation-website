@@ -123,7 +123,7 @@ const config = {
 			navbar: {
 				logo: {
 					alt: "Dinerpay logo",
-					src: "img/dineropayS.svg",
+					src: "/img/logo.svg",
 					href: "https://www.dineropay.com",
 				},
 				items: [
@@ -147,7 +147,7 @@ const config = {
 						value: `<a href="/checkoutAPI.json" download> <span style="display:flex; align-items:center"><img src="/img/postman.svg" style="width:2rem;margin-right:.5rem"></img>checkout collection</span> </a>`,
 					},
 					{
-						href: "https://dashaboard.dineropay.com",
+						href: "https://dashboard.dineropay.com",
 						label: "Dashboard",
 						position: "right",
 					},
@@ -158,7 +158,7 @@ const config = {
 				links: [
 					{
 						html: ` <a href="https://dineropay.com" target="_blank" rel="noreferrer noopener">
-                <img src="/img/dineropayS.svg" alt="Find more about Dinero Pay" width="114" height="51" />
+                <img src="/img/dinero-pay-logo.svg" alt="Find more about Dinero Pay" width="114" height="51" />
               </a>`,
 					},
 				],
